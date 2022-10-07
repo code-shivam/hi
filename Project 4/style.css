@@ -1,0 +1,136 @@
+*{
+    margin: 5px;
+padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav img{
+    height: 50px;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    font-size: 30px;
+    margin-left: 90px;
+}
+.active-item{
+    color: red;
+    font-weight: bold;
+}
+.intro-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+h3{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: Poppins;
+}
+h1{
+    font-size: 95px;
+    font-family: Poppins;
+    font-weight: bold;
+
+}
+.left-section img{
+    height: 50px;
+}
+.left-section{
+    margin-top: 120px;
+    
+}
+.sub-headlines img{
+    background-color:#fe5e35;
+    height: 25px;
+    border-radius: 20px;
+    padding: 5px;
+}
+h5{
+    font-size: 35px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+.sub-headlines{
+    margin-left: 110px;
+    margin-top: 30px;
+}
+.text{
+    margin: 30px 0 30px 30px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Poppins;
+    opacity: 0.4;
+    
+}
+.action-btns{
+ margin-left: 30px;   
+}
+.action-btn{
+    background-color: #fe5e35;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 20px;
+    color: #ffffff;
+    font-size: 25px;
+}
+/* right  */
+.discount-content~img{
+    position: relative;
+    bottom: 320px;
+    right: 50px;
+    z-index: -2;
+}
+.discount{
+    position: relative;
+    top: 370px;
+    right: 70px;
+    z-index: -1;
+}
+.discount-content{
+    color: #ffffff;
+    font-size: 25px;
+    border: none;
+    position: relative;
+    top: 220px;
+    right: 40px;
+}
+h4+h1{
+    font-size: 45px;
+    font-family: Poppins;
+    position: relative;
+    left: 10px;
+}
+.headphone-div{
+    margin-top: 0;
+}
+.dots{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    position: relative;
+    bottom: 300px;
+    left: 180px;
+}
+.dots+button{
+    position: relative;
+    bottom: 270px;
+    left: 170px;
+}
+.dot{
+    border-radius: 20px;
+    padding: 15px;
+}
+.black-dot{
+    background-color: black;
+}
+.tomato-dot{
+    background-color: tomato;
+}
+.yellow-dot{
+    background-color: yellow;
+}
